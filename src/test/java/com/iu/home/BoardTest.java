@@ -25,21 +25,21 @@ public class BoardTest {
 		@Autowired
 		private BoardMapper boardMapper;
 		
-		@Test
-		void addQna()throws Exception{
-			BoardVO boardVO = new BoardVO();
-			
-			for(int i=0; i<101; i++) {
-				boardVO.setTitle("제목"+i);
-				boardVO.setWriter("작성자"+i);
-				boardVO.setContents("내용"+i);
-				int result = boardMapper.setAdd(boardVO);
-			}
-			
-			
-			
-			assertEquals(1, 1);
-		}
+//		@Test
+//		void addQna()throws Exception{
+//			BoardVO boardVO = new BoardVO();
+//			
+//			for(int i=0; i<101; i++) {
+//				boardVO.setTitle("제목"+i);
+//				boardVO.setWriter("작성자"+i);
+//				boardVO.setContents("내용"+i);
+//				int result = boardMapper.setAdd(boardVO);
+//			}
+//			
+//			
+//			
+//			assertEquals(1, 1);
+//		}
 
 	
 

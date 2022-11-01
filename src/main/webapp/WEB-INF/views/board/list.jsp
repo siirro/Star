@@ -10,8 +10,9 @@
 <c:import url="../temp/boot.jsp"></c:import>
 </head>
 <body>
-
-<h1>List Page</h1>
+ <div style="display: flex; justify-content: center;">
+<h1>QNA List Page</h1>
+</div>
 <div id="contents" style="display: flex; justify-content: center; flex-wrap: wrap;">
 	
 	<div>
@@ -61,6 +62,10 @@
 				</c:forEach>
 			</tbody>
 		</table>
+		
+		<div>
+			<a href="./add" class="btn btn-danger">글쓰기</a>
+		</div>
 		
 		<nav aria-label="Page navigation example">
 		  <ul class="pagination justify-content-center">

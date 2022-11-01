@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.iu</groupId>
-	<artifactId>StudyBoot-1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>Star</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>StudyBoot-1</name>
 	<description>Demo project for Spring Boot</description>
@@ -103,6 +103,13 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

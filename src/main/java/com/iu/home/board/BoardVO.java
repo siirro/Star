@@ -16,7 +16,7 @@ public class BoardVO {
 	private String contents;
 	private Long hit;
 	private Date regDate;
-//	private List<BoardFileVO> 
+	private List<BoardFileVO> boardFileVOs;
 	
 	private MultipartFile [] files;
 
