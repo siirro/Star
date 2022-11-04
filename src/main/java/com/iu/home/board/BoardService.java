@@ -27,6 +27,7 @@ public class BoardService {
 	
 	public int setAdd(BoardVO boardVO)throws Exception{
 		int result = boardMapper.setAdd(boardVO);
+//		File file = new File(path+"qna"); application에 qna안넣었을때는이렇게
 		File file = new File(path);
 		
 		if(!file.exists()) {

@@ -10,6 +10,8 @@
 
  			<typeAlias type="com.iu.home.board.BoardVO" alias="BoardVO"/>	
  			<typeAlias type="com.iu.home.board.BoardFileVO" alias="BoardFileVO"/>	
+ 			<typeAlias type="com.iu.home.member.MemberVO" alias="MemberVO"/>	
+ 			<typeAlias type="com.iu.home.member.RoleVO" alias="RoleVO"/>	
  			<typeAlias type="com.iu.home.util.Pager" alias="Pager"/>	
 			
 			
